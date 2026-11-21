@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Huellas de amor 🐶🐱</title>
+    <!-- Enlazamos el archivo de estilos -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos integrados para las nuevas imágenes y el botón optimizado */
+        .tarjeta img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 15px;
+        }
+        
+        .tarjeta {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #fff;
+            padding-bottom: 15px;
+            text-align: center;
+        }
+
+        /* Estilos para el botón/hipervínculo de Gmail */
+        .btn-agendar {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #1a92e8; /* Azul estilo Google */
+            color: #ffffff;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            margin-top: 20px;
+        }
+
+        /* Efecto al pasar el cursor por encima */
+        .btn-agendar:hover {
+            background-color: #5f8fce;
+            transform: translateY(-1px);
+        }
+
+        /* Efecto al hacer clic */
+        .btn-agendar:active {
+            transform: translateY(1px);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>🐾 Veterinaria Huellas de Amor</h1>
+            <p>Salud y cariño para tu mejor amigo</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio" class="hero">
+        <h2>Tu mascota merece lo mejor 💙</h2>
+        <p>Atención médica, vacunas, peluquería y mucho más — todo con amor y dedicación.</p>
+        <a href="#contacto" class="boton">Agendar Cita</a>
+    </section>
+
+    <section id="servicios" class="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="fila">
+            <div class="tarjeta">
+                <img src="https://plus.unsplash.com/premium_photo-1661942274165-00cc8d55a93f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmV0ZXJpbmFyaWF8ZW58MHx8MHx8fDA%3D" alt="Consulta Médica Veterinaria">
+                <h3>🏥 Consulta Médica</h3>
+                <p>Revisiones generales y diagnóstico con equipo moderno.</p>
+            </div>
+            <div class="tarjeta">
+                <img src="https://plus.unsplash.com/premium_photo-1664300914147-6da4f19c9a74?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Vacunación de mascotas">
+                <h3>💉 Vacunas</h3>
+                <p>Esquemas completos para perros y gatos.</p>
+            </div>
+            <div class="tarjeta">
+                <img src="https://plus.unsplash.com/premium_photo-1785926455092-e52853ef6016?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvcnRlJTIwZGUlMjB1JUMzJUIxYXMlMjBkZSUyMGdhdG98ZW58MHx8MHx8fDA%3D" alt="Estética y peluquería canina">
+                <h3>✂️ Estética</h3>
+                <p>Corte de pelo, baños y cuidado de la piel.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="nosotros" class="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos un equipo de profesionales apasionados por los animales. Llevamos más de 10 años cuidando de las mascotas de nuestra comunidad, con amor, responsabilidad y confianza.</p>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>📞 Contáctanos</h2>
+        <p>📍 Dirección: Calle 58 # 14-26 Barrio El Trèbol</p>
+        <p>📱 Teléfono: 319 3648502</p>
+        <p>✉️ Email: veterinaria@huellasdeamor.com</p>
+        <p>🕐 Horario: Lun–Vie 8:00 – 18:00 / Sáb 9:00 – 14:00 </p>
+        
+        <!-- Aquí unifiqué tu botón de Gmail en la sección correspondiente -->
+        <a href="https://mail.google.com" target="_blank" class="btn-agendar">
+            Agendar Cita (Gmail)
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Veterinaria Huellas de Amor 🐾 — Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
+
+<link rel="modulepreload" href="script.js">
+/* =========================================
+   1. VARIABLES DE TEMA Y DISEÑO
+   ========================================= */
+:root {
+  /* Colores base y superficies */
+  --bg-page: #f0f9ff;
+  --bg-surface: #ffffff;
+  --bg-accent: #dbeafe;
+  --bg-card: #eff6ff;
+
+  /* Colores de marca y acento */
+  --primary: #1e40af;
+  --primary-dark: #083dae;
+  --header-bg: #2c52b3; /* Ajustado ligeramente para mayor contraste con texto blanco */
+  --footer-bg: #1e3a8a;
+
+  /* Tipografía */
+  --text-main: #1e293b;
+  --text-muted: #475569;
+  --text-inverse: #ffffff;
+  --link-hover: #bfdbfe;
+
+  /* Espaciado, bordes y efectos */
+  --section-padding: clamp(3rem, 6vw, 4.5rem) 5%;
+  --container-max: 1200px;
+  --radius: 12px;
+  --border-light: 1px solid rgba(30, 64, 175, 0.12);
+  --shadow-sm: 0 4px 12px rgba(8, 61, 174, 0.06);
+  --shadow-md: 0 10px 24px rgba(8, 61, 174, 0.14);
+  --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* =========================================
+   2. RESET Y ESTILOS BASE
+   ========================================= */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem; /* Evita que el header sticky tape los títulos al navegar */
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  background-color: var(--bg-page);
+  color: var(--text-main);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 2px;
+}
+
+/* Respetar preferencia de usuario sin animaciones */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; }
+}
+
+/* =========================================
+   3. ENCABEZADO Y NAVEGACIÓN
+   ========================================= */
+header {
+  background-color: var(--header-bg);
+  color: var(--text-inverse);
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: var(--text-inverse);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.25rem 0;
+  position: relative;
+  transition: color var(--transition);
+}
+
+/* Subrayado animado al pasar el cursor */
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--link-hover);
+  transition: width var(--transition);
+}
+
+nav a:hover {
+  color: var(--link-hover);
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* =========================================
+   4. SECCIÓN HERO
+   ========================================= */
+.hero {
+  position: relative;
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.88), rgba(239, 246, 255, 0.94)),
+    url('https://img.magnific.com/vector-premium/huellas-patas-azules-blanco_1006452-157.jpg?semt=ais_hybrid&w=740&q=80') no-repeat center / cover;
+  color: var(--primary);
+  text-align: center;
+  padding: clamp(3.5rem, 8vw, 5.5rem) 5%;
+  border-bottom: var(--border-light);
+}
+
+.hero h2 {
+  font-size: clamp(1.85rem, 4.5vw, 2.75rem);
+  margin-bottom: 1rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  color: var(--text-muted);
+  margin: 0 auto 2rem;
+  max-width: 650px;
+}
+
+.boton {
+  display: inline-block;
+  background-color: var(--primary-dark);
+  color: var(--text-inverse);
+  padding: 0.85rem 2.2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(8, 61, 174, 0.25);
+  transition: background-color var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+
+.boton:hover {
+  background-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(8, 61, 174, 0.35);
+}
+
+.boton:active {
+  transform: translateY(0);
+}
+
+/* =========================================
+   5. SECCIONES GENERALES (DRY)
+   ========================================= */
+.servicios,
+.nosotros,
+.contacto {
+  padding: var(--section-padding);
+}
+
+.servicios h2,
+.nosotros h2,
+.contacto h2 {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 1.75rem;
+  font-size: clamp(1.6rem, 3vw, 2.15rem);
+  letter-spacing: -0.01em;
+}
+
+/* =========================================
+   6. SERVICIOS Y TARJETAS
+   ========================================= */
+.servicios {
+  background-color: var(--bg-surface);
+}
+
+.fila {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.tarjeta {
+  background-color: var(--bg-card);
+  padding: 2rem 1.5rem;
+  border-radius: var(--radius);
+  border: var(--border-light);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(30, 64, 175, 0.3);
+}
+
+.tarjeta h3 {
+  color: var(--primary);
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.tarjeta p {
+  color: var(--text-muted);
+  font-size: 0.98rem;
+}
+
+/* =========================================
+   7. NOSOTROS Y CONTACTO
+   ========================================= */
+.nosotros {
+  background-color: var(--bg-accent);
+  text-align: center;
+}
+
+.nosotros p {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+}
+
+.contacto {
+  background-color: var(--bg-surface);
+}
+
+.contacto p {
+  max-width: 540px;
+  margin: 0.6rem auto;
+  font-size: 1.05rem;
+  text-align: center;
+}
+
+/* =========================================
+   8. PIE DE PÁGINA
+   ========================================= */
+footer {
+  background-color: var(--footer-bg);
+  color: var(--text-inverse);
+  text-align: center;
+  padding: 1.75rem 5%;
+  font-size: 0.92rem;
+}
+
+/* =========================================
+   9. RESPONSIVE (MÓVILES)
+   ========================================= */
+@media (max-width: 600px) {
+  html {
+    scroll-padding-top: 6.5rem; /* Header más alto cuando se apila en móvil */
+  }
+
+  header {
+    justify-content: center;
+    text-align: center;
+  }
+
+  nav ul {
+    justify-content: center;
+    gap: 1rem 1.25rem;
+  }
+}
+document.addEventListener('DOMContentLoaded', () => {
+    const CONFIG = {
+        email: 'info@amigospeludos.com',
+        horarios: {
+            semana: { inicio: 8, fin: 18 }, // Lunes a Viernes
+            sabado: { inicio: 9, fin: 14 }  // Sábado
+        }
+    };
+
+    // 1. Saludo dinámico según la hora del día
+    const actualizarSaludo = () => {
+        const subtitulo = document.querySelector('.logo p');
+        if (!subtitulo) return;
+
+        const hora = new Date().getHours();
+        let saludo = '¡Bienvenido a Amigos Peludos! 🐾';
+
+        if (hora >= 5 && hora < 12) {
+            saludo = '¡Buenos días! Tu mascota merece lo mejor hoy ☀️🐾';
+        } else if (hora >= 12 && hora < 18) {
+            saludo = '¡Buenas tardes! Listos para atender a tu mejor amigo 🌤️🐾';
+        } else {
+            saludo = '¡Buenas noches! Revisa nuestros horarios de atención 🌙🐾';
+        }
+
+        subtitulo.textContent = saludo;
+    };
+
+    // 2. Indicador en tiempo real de "Abierto ahora" o "Cerrado"
+    const mostrarEstadoHorario = () => {
+        const seccionContacto = document.querySelector('.contacto-info') || document.querySelector('.contacto');
+        if (!seccionContacto) return;
+
+        const ahora = new Date();
+        const dia = ahora.getDay(); // 0 = Domingo, 1-5 = Lun-Vie, 6 = Sábado
+        const hora = ahora.getHours();
+        let estaAbierto = false;
+
+        if (dia >= 1 && dia <= 5) {
+            estaAbierto = hora >= CONFIG.horarios.semana.inicio && hora < CONFIG.horarios.semana.fin;
+        } else if (dia === 6) {
+            estaAbierto = hora >= CONFIG.horarios.sabado.inicio && hora < CONFIG.horarios.sabado.fin;
+        }
+
+        const estadoEl = document.createElement('p');
+        estadoEl.innerHTML = estaAbierto
+            ? '🟢 <strong>Estado actual:</strong> Abierto ahora — ¡Te esperamos!'
+            : '🔴 <strong>Estado actual:</strong> Cerrado en este momento';
+        
+        seccionContacto.appendChild(estadoEl);
+    };
+
+    // 3. Generador de enlace directo a Gmail con asunto y cuerpo prellenados
+    const construirEnlaceGmail = (servicio = 'Consulta General') => {
+        const asunto = encodeURIComponent(`Reserva de Cita: ${servicio} - Amigos Peludos`);
+        const cuerpo = encodeURIComponent(
+            `Hola equipo de Amigos Peludos,\n\n` +
+            `Me gustaría agendar una cita para: ${servicio}.\n` +
+            `• Nombre de mi mascota:\n` +
+            `• Día y hora preferida:\n\n` +
+            `¡Muchas gracias!`
+        );
+
+        return `https://google.com{CONFIG.email}&su=${asunto}&body=${cuerpo}`;
+    };
+
+    // 4. Interacción con las tarjetas de servicios
+    const inicializarTarjetas = () => {
+        const tarjetas = document.querySelectorAll('.tarjeta');
+        const botonGmail = document.getElementById('btnGmail');
+
+        // Configurar enlace inicial del botón Gmail
+        if (botonGmail) {
+            botonGmail.href = construirEnlaceGmail();
+        }
+
+        tarjetas.forEach((tarjeta) => {
+            // Accesibilidad con teclado (Enter o Espacio)
+            tarjeta.setAttribute('tabindex', '0');
+            tarjeta.setAttribute('role', 'button');
+
+            const seleccionarServicio = () => {
+                const titulo = tarjeta.querySelector('h3')?.textContent.trim() || 'Consulta General';
+                const servicio = tarjeta.dataset.servicio || titulo;
+
+                // Resaltar visualmente la tarjeta seleccionada
+                tarjetas.forEach((t) => t.classList.remove('tarjeta-activa'));
+                tarjeta.classList.add('tarjeta-activa');
+
+                // Actualizar el enlace y texto del botón de Gmail
+                if (botonGmail) {
+                    botonGmail.href = construirEnlaceGmail(servicio);
+                    botonGmail.textContent = `✉️ Agendar: ${servicio}`;
+                }
+
+                // Desplazamiento suave a la sección de contacto
+                document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' });
+            };
+
+            tarjeta.addEventListener('click', seleccionarServicio);
+            tarjeta.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    seleccionarServicio();
+                }
+            });
+        });
+    };
+
+    // Ejecutar funciones
+    actualizarSaludo();
+    mostrarEstadoHorario();
+    inicializarTarjetas();
+});
