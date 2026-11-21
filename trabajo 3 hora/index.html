@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Huellas de amor 🐶🐱</title>
+    <!-- Enlazamos el archivo de estilos -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos integrados para las nuevas imágenes y el botón optimizado */
+        .tarjeta img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 15px;
+        }
+        
+        .tarjeta {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #fff;
+            padding-bottom: 15px;
+            text-align: center;
+        }
+
+        /* Estilos para el botón/hipervínculo de Gmail */
+        .btn-agendar {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #1a92e8; /* Azul estilo Google */
+            color: #ffffff;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            margin-top: 20px;
+        }
+
+        /* Efecto al pasar el cursor por encima */
+        .btn-agendar:hover {
+            background-color: #5f8fce;
+            transform: translateY(-1px);
+        }
+
+        /* Efecto al hacer clic */
+        .btn-agendar:active {
+            transform: translateY(1px);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>🐾 Veterinaria Huellas de Amor</h1>
+            <p>Salud y cariño para tu mejor amigo</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio" class="hero">
+        <h2>Tu mascota merece lo mejor 💙</h2>
+        <p>Atención médica, vacunas, peluquería y mucho más — todo con amor y dedicación.</p>
+        <a href="#contacto" class="boton">Agendar Cita</a>
+    </section>
+
+    <section id="servicios" class="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="fila">
+            <div class="tarjeta">
+                <img src="https://plus.unsplash.com/premium_photo-1661942274165-00cc8d55a93f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmV0ZXJpbmFyaWF8ZW58MHx8MHx8fDA%3D" alt="Consulta Médica Veterinaria">
+                <h3>🏥 Consulta Médica</h3>
+                <p>Revisiones generales y diagnóstico con equipo moderno.</p>
+            </div>
+            <div class="tarjeta">
+                <img src="https://plus.unsplash.com/premium_photo-1664300914147-6da4f19c9a74?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Vacunación de mascotas">
+                <h3>💉 Vacunas</h3>
+                <p>Esquemas completos para perros y gatos.</p>
+            </div>
+            <div class="tarjeta">
+                <img src="https://plus.unsplash.com/premium_photo-1785926455092-e52853ef6016?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvcnRlJTIwZGUlMjB1JUMzJUIxYXMlMjBkZSUyMGdhdG98ZW58MHx8MHx8fDA%3D" alt="Estética y peluquería canina">
+                <h3>✂️ Estética</h3>
+                <p>Corte de pelo, baños y cuidado de la piel.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="nosotros" class="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos un equipo de profesionales apasionados por los animales. Llevamos más de 10 años cuidando de las mascotas de nuestra comunidad, con amor, responsabilidad y confianza.</p>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>📞 Contáctanos</h2>
+        <p>📍 Dirección: Calle 58 # 14-26 Barrio El Trèbol</p>
+        <p>📱 Teléfono: 319 3648502</p>
+        <p>✉️ Email: veterinaria@huellasdeamor.com</p>
+        <p>🕐 Horario: Lun–Vie 8:00 – 18:00 / Sáb 9:00 – 14:00 </p>
+        
+        <!-- Aquí unifiqué tu botón de Gmail en la sección correspondiente -->
+        <a href="https://mail.google.com" target="_blank" class="btn-agendar">
+            Agendar Cita (Gmail)
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Veterinaria Huellas de Amor 🐾 — Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
+
+<link rel="modulepreload" href="script.js">
